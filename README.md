@@ -1,4 +1,0 @@
-zurmo
-=====
-
-zurmo repository

@@ -1,0 +1,89 @@
+2014/09/29 17:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "zurmozoo/default".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('zurmozoo/defaul...')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/zurmozoo/default
+HTTP_REFERER=http://localhost/zurmo/app/index.php/zurmo/default/login
+---
+2014/09/29 17:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "zurmozoo/default".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('zurmozoo/defaul...')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/zurmozoo/default
+HTTP_REFERER=http://localhost/zurmo/app/index.php/zurmo/default/login
+---
+2014/09/29 17:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "animals".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/animals
+---
+2014/09/29 17:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "animals/default".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animals/default')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/animals/default
+---
+2014/09/30 09:57:46 [error] [exception.RedBean_Exception_SQL] [42S02] - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zurmo.animal' doesn't exist
+REQUEST_URI=/zurmo/app/index.php/animals
+---
+2014/09/30 09:58:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "animal".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animal')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/animal
+---
+2014/09/30 09:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "animal".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animal')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/animal
+---
+2014/09/30 09:58:31 [error] [exception.RedBean_Exception_SQL] [42S02] - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zurmo.animal' doesn't exist
+REQUEST_URI=/zurmo/app/index.php/animals
+---
+2014/09/30 10:10:45 [error] [exception.RedBean_Exception_SQL] [42S22] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'animal.id' in 'field list'
+REQUEST_URI=/zurmo/app/index.php/animals
+---
+2014/09/30 10:24:22 [error] [exception.RedBean_Exception_SQL] [42S22] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'animal.id' in 'field list'
+REQUEST_URI=/zurmo/app/index.php/animals
+---
+2014/09/30 10:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "animal".' in D:\WWW\zurmo\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\WWW\zurmo\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('animal')
+#1 D:\WWW\zurmo\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\WWW\zurmo\app\protected\core\components\WebApplication.php(75): CApplication->run()
+#3 D:\WWW\zurmo\app\index.php(70): WebApplication->run()
+#4 {main}
+REQUEST_URI=/zurmo/app/index.php/animal
+---
+2014/09/30 11:13:00 [error] [exception.RedBean_Exception_SQL] [42S22] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'checkbox' in 'field list'
+REQUEST_URI=/zurmo/app/index.php/animals/default/create
+HTTP_REFERER=http://localhost/zurmo/app/index.php/animals/default/create
+---
+2014/09/30 11:41:43 [error] [exception.RedBean_Exception_SQL] [42S22] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customfield_id' in 'field list'
+REQUEST_URI=/zurmo/app/index.php/animals/default/create
+HTTP_REFERER=http://localhost/zurmo/app/index.php/animals/default/create
+---
+2014/09/30 11:45:10 [error] [exception.RedBean_Exception_SQL] [42S22] - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customfield_id' in 'field list'
+REQUEST_URI=/zurmo/app/index.php/animals/default/create
+HTTP_REFERER=http://localhost/zurmo/app/index.php/animals/default/create
+---

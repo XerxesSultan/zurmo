@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.email_formlabel {
+	font-weight: bold;
+	font-size: 13px;
+	color: #555555;
+	letter-spacing: 0px;
+}
